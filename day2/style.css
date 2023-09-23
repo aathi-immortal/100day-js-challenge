@@ -1,0 +1,44 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.main-body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 239, 239);
+    
+}
+.col
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.age-calculator
+{
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 1px 1px 7px 1px rgb(130, 130, 130)
+                
+}
+.date-input
+{
+    height: 20px;
+}
+.result-div
+{
+    height: 100px !important;
+    
+    
+}
+#submit:focus
+{
+    outline: none !important;
+    border: transparent !important;
+    
+}
