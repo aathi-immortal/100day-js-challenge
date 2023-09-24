@@ -1,0 +1,90 @@
+@keyframes blink
+{
+    0%
+    {
+        transform: scale(0.6);
+        text-shadow: 3px 3px 5px rgb(240, 28, 28);
+    }
+    /* 10%
+    {
+        font-size: 62px;
+        color: rgb(250, 121, 121);
+    }
+    20%
+    {
+        font-size: 63px;
+        color: rgb(236, 78, 78);
+    }
+    25%
+    {
+        font-size: 64px;
+    }
+    30%
+    {
+        font-size: 65px;
+        color: rgb(245, 39, 39);
+    }
+
+    40%
+    {
+        font-size: 66px;
+        color: rgb(231, 14, 14);
+
+    } */
+    50%
+    {
+        transform: scale(1);
+        color: red;
+        text-shadow: 3px 3px 5px rgb(250, 64, 64);
+    }
+    /* 60%
+    {
+        font-size: 70px;
+        color: red;
+        text-shadow: 3px 3px 5px red;
+    }
+     */
+     100%
+     {
+        transform: scale(1.1);
+        color: red;
+        text-shadow: 3px 3px 5px red;
+     }
+
+}
+.timmer
+{
+    
+    
+    width: 600px;
+    height: 300px;
+    padding: 10px 50px;
+    background-color: rgb(8, 8, 8);
+
+}
+.main-block
+{
+    font-family: 'Dela Gothic One', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(63,82,251);
+background: radial-gradient(circle, rgba(63,82,251,1) 2%, rgba(20,20,20,1) 100%);
+
+}
+.col
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red--text-blink
+{
+    animation: blink 1s linear infinite;      
+    
+}
