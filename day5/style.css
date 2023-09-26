@@ -1,0 +1,74 @@
+/* @keyframes
+{
+
+} */
+
+button
+{
+        
+        
+        
+            
+            font-size: 2rem !important; /* Adjust font size for desired size */
+            text-align: center;
+        
+}
+.main-block
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.col,.col-4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-block
+{
+    width: 50%;
+    
+}
+
+#stone,#paper,#scissor
+{
+    transition: all 1s;
+}
+#stone
+{
+    background-color: rgb(246, 88, 88);
+}
+#paper
+{
+    background-color: rgb(93, 93, 251);
+}
+#scissor
+{
+    background-color: rgb(125, 247, 125);
+}
+/* #stone:hover, #paper:hover ,#scissor:hover
+{
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+} */
+#stone:hover
+{
+    background-color: red;
+    box-shadow: 1px 1px 10px 1px white;
+
+}
+
+#paper:hover
+{
+    background-color: blue;
+    box-shadow: 1px 1px 10px 1px white;
+}
+#scissor:hover
+{
+    background-color: green;
+    box-shadow: 1px 1px 10px 1px white;
+}
