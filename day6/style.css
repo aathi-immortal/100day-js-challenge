@@ -1,0 +1,47 @@
+*
+{font-family: 'Anton', sans-serif;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Pixelify Sans', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.stop-watch
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.timmer
+{
+    color: #f92672;
+    font-size: 80px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px white;
+}
+.col
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stop .btn,.start .btn,.reset .btn
+{
+    
+    background-color:#f92672;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 1px 1px 10px -1px white;
+    transition: all 0.5s;
+    
+}
+.btn:hover
+{
+    box-shadow: 1px 1px 8px 1px white;
+    scale: 1.1;
+    
+}
