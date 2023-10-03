@@ -1,0 +1,66 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: aqua;
+}
+.wrapper
+{
+    width: 90vw;
+    font-size: 1em;
+    max-width: 28em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    
+    
+}
+.innerWrapper
+{
+    background-color: white;
+    padding: 3em;
+    width: 100%;
+    font-size: 1em;
+    box-shadow: 0 2em 3.2em rgb(110, 110, 110);
+    border-radius: 0.6em;
+}
+.heading-wrapper h1
+{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.input-wrapper input
+{
+    display: block;
+    font-size: 1.6em;
+    width: 100%;
+    padding-left: 0.3em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    border: 1px solid rgb(213, 211, 211);
+    border-radius: 0.3em;
+}
+.input-wrapper input:active,:focus
+{
+    outline: none !important;
+}
+.result-wrapper
+{
+    margin-top: 1em;
+}
+.innerWrapper label
+{   
+    display: block;
+    margin-bottom: 0.4em;
+}
+.result-wrapper .warning-wrapper
+{
+    color: red;
+    
+}
