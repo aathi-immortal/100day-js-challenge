@@ -1,0 +1,39 @@
+.top-content
+{
+    background-image: url("img/home.avif");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+nav{
+    position: fixed !important;
+    width: 100%;
+    background-color: white;
+    
+    transition: all 0.5s ;
+
+}
+
+
+.scroll-active{
+
+    color: red ;
+    background-color: black;
+}
+.top-content h1
+{
+    margin: 0;
+    padding: 2em;
+
+
+}
+.bottom-content
+{
+    margin: 0;
+    padding: 1em;
+    text-align: left;
+}
