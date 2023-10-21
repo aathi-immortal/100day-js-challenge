@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    
+    
+    max-width: 400px;
+    width: 80%;
+    
+    
+}
+.container .steps
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container .steps .circle
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: 3px solid lightgrey;
+    color: lightgray;
+    font-weight: bolder;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
