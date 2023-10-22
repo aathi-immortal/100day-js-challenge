@@ -10,13 +10,14 @@
     
     max-width: 400px;
     width: 80%;
-    
+    position: relative;    
     
 }
 .container .steps
 {
     display: flex;
     justify-content: space-between;
+    position: relative;
     
 }
 .container .steps .circle
@@ -34,6 +35,29 @@
     background-color: white;
 
 }
+.container .steps .back-line
+{
+    background-color: lightgray;
+    height: 3px;
+    width: 90%;
+    position: absolute;
+    top: 19px;
+    z-index: -1;
+}
+.buttons button
+{
+        width: 70px !important;
+        border-radius: 20px;
+        margin: 0px 10px;
+        cursor: pointer;
+        background-color: slateblue !important;
+}
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 body
 {
     height: 100vh;
@@ -41,4 +65,14 @@ body
     justify-content: center;
     align-items: center;
     background-color: yellow;
+}
+.disabled
+{
+    background-color: lightgray;
+    color: white !important;
+    cursor: not-allowed;
+}
+.active
+{
+    background-color: red !important;
 }

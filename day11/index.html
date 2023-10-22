@@ -17,22 +17,34 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="steps">
-            <span class="circle">
+    <div class="container row row-cols-1 g-3">
+        <div class="steps col">
+            <span class="circle" id="circle-1">
                 1
             </span>
-            <span class="circle">
+            <span class="circle" id="circle-2">
                 2
             </span>
-            <span class="circle">
+            <span class="circle" id="circle-3">
                 3
             </span>
-            <span class="circle">
+            <span class="circle" id="circle-4">
                 4
             </span>
+            <div class="back-line">
+
+            </div>
+
+        </div>
+        <div class="buttons col row  mt-4 ">
+            <button class="prev btn btn-primary col-6 disabled" id="prev-button">
+                prev </button>
+            <button class="next btn btn-primary col-6" id="next-button">
+                next
+            </button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
