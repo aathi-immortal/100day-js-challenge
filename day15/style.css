@@ -1,0 +1,39 @@
+body
+{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,28,121,1) 14%, rgba(0,212,255,1) 100%);
+height: 100vh;
+display:  flex;
+justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    
+    
+    
+}
+.selector
+{
+    padding: 1px 10px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.options li
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#hide
+{
+    display: none;
+}
